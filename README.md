@@ -9,7 +9,7 @@ This repository presents a Python-based data analysis project aimed at uncoverin
 
 ## 🔍 Project Summary
 
-I designed and analyzed a survey targeting public users of the [Regional Development Network (RDN)](https://example.com). The goal was to understand how people perceive website elements like:
+I designed and analyzed a survey targeting public users of the [Rural Development Network (RDN)](https://ruraldevelopment.ca/). The goal was to understand how people perceive website elements like:
 
 -  **Color relevance** (esp. Indigenous color symbolism)
 -  **Homepage video impact**
