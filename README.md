@@ -11,10 +11,10 @@ This repository presents a Python-based data analysis project aimed at uncoverin
 
 I designed and analyzed a survey targeting public users of the [Regional Development Network (RDN)](https://example.com). The goal was to understand how people perceive website elements like:
 
-- 🎨 **Color relevance** (esp. Indigenous color symbolism)
-- 🎥 **Homepage video impact**
-- 📱 **Social media trust signals**
-- 🌐 **Clarity of mission and values**
+-  **Color relevance** (esp. Indigenous color symbolism)
+-  **Homepage video impact**
+-  **Social media trust signals**
+-  **Clarity of mission and values**
 
 The analysis identifies patterns in responses based on demographic info (e.g., rural vs. urban), prior nonprofit exposure, and overall user engagement.
 
@@ -32,34 +32,17 @@ The analysis identifies patterns in responses based on demographic info (e.g., r
 
 ---
 
-## 📊 Visual Outputs
+## 📊 Infographic Samples
 
-### Engagement vs. Mission Understanding
-This boxplot compares user engagement across those who **understood** vs. **did not understand** the organization’s purpose.
 
-![Boxplot comparing understanding of mission and engagement](images/Survey.jpg)
+
+![Boxplot comparing understanding of mission and engagement](images/Survey1.jpg)
 
 ---
 
-### Social Media Validation + Branding Signals
-Bar charts show how users perceived the trustworthiness of social media presence, homepage video value, and cultural color representation.
 
 ![Bar charts exploring trust and branding](images/Survey2.jpg)
 
 ---
 
-## 📁 Files Included
 
-- `survey_analysis.py` — Main script: loads, cleans, and visualizes survey data
-- `SurveyResponses.csv` (not included in repo) — Raw data source
-- `images/Survey.jpg`, `images/Survey2.jpg` — Visual assets generated from analysis
-- `README.md` — This documentation
-
----
-
-## ⚙️ How to Run
-
-1. **Clone this repository**  
-```bash
-git clone https://github.com/your-username/rdn-survey-analysis.git
-cd rdn-survey-analysis
