@@ -1,56 +1,65 @@
-# 📝 Survey Analysis: RDN Website Design & User Engagement
+# 🧠 RDN Website UX + Branding Survey Analysis
 
-This project explores how users perceive and engage with a nonprofit organization's website—specifically, the RDN (Regional Development Network). The goal was to assess user attitudes toward design features like homepage layout, social media presence, and color relevance, while also uncovering any demographic or experiential patterns (e.g., rural background or prior contact with nonprofits).
+This repository presents a Python-based data analysis project aimed at uncovering how users perceive and interact with a nonprofit organization's website. The focus is on **user engagement**, **branding effectiveness**, and **UX-driven behavior**, using real survey data and Python visualization libraries.
 
-The analysis is built in Python and uses **Pandas**, **Matplotlib**, and **Seaborn** to process and visualize survey results.
-
----
-
-## 📊 Key Objectives
-
-- **Quantify user engagement** with the RDN website based on UI features.
-- **Explore the importance of branding elements**, such as color usage and homepage video presence.
-- **Assess perceived clarity** around RDN’s mission (e.g., support for unhoused individuals).
-- **Analyze subgroup behavior** (e.g., rural vs. non-rural respondents).
-- **Evaluate correlations** between web design features and perceived usefulness or engagement.
+> 📌 **Why this matters to you as an employer:**  
+> This project demonstrates my ability to conduct **user-centered research**, perform **statistical analysis**, and communicate findings visually — all critical skills for roles in **data science**, **UX research**, or **digital strategy**.
 
 ---
 
-## 🧠 What’s in the Code
+## 🔍 Project Summary
 
-### `survey_analysis.py`
-This script includes:
-- **Boxplots**: Visualize how engagement and perception vary based on awareness of RDN’s mission.
-- **Bar Charts**: Show response distributions for:
-  - Indigenous color association
-  - Homepage video usefulness
-  - Social media’s role in brand validation
-- **Heatmaps**: Explore correlations between numeric questions and background data (like rural status).
+I designed and analyzed a survey targeting public users of the [Regional Development Network (RDN)](https://example.com). The goal was to understand how people perceive website elements like:
 
----
+- 🎨 **Color relevance** (esp. Indigenous color symbolism)
+- 🎥 **Homepage video impact**
+- 📱 **Social media trust signals**
+- 🌐 **Clarity of mission and values**
 
-## 🖼️ Sample Visuals
-
-Below are sample outputs from the analysis:
-
-### Survey Engagement Boxplot
-![Survey Engagement Boxplot](Survey1.jpg)
-
-### Social Media and Branding Analysis
-![Social Media and Branding](Survey2.jpg)
+The analysis identifies patterns in responses based on demographic info (e.g., rural vs. urban), prior nonprofit exposure, and overall user engagement.
 
 ---
 
-## 🧪 Technologies Used
+## 🛠️ Tools & Skills Demonstrated
 
-| Library         | Purpose                               |
-|----------------|----------------------------------------|
-| `pandas`       | Data loading and wrangling             |
-| `matplotlib`   | Plotting (bar charts, boxplots)        |
-| `seaborn`      | Enhanced visualizations and heatmaps   |
+| Skill Area               | Tools / Techniques                       |
+|--------------------------|------------------------------------------|
+| Data wrangling           | `pandas`, CSV handling                   |
+| Data visualization       | `matplotlib`, `seaborn`                  |
+| UX/Design research       | Survey design, Likert-scale analysis     |
+| Insights communication   | Boxplots, bar charts, heatmaps           |
+| Conditional subsetting   | Filtering by rural background, etc.      |
 
 ---
 
-## 🚀 Getting Started
+## 📊 Visual Outputs
 
-### 1. Clone t
+### Engagement vs. Mission Understanding
+This boxplot compares user engagement across those who **understood** vs. **did not understand** the organization’s purpose.
+
+![Boxplot comparing understanding of mission and engagement](images/Survey.jpg)
+
+---
+
+### Social Media Validation + Branding Signals
+Bar charts show how users perceived the trustworthiness of social media presence, homepage video value, and cultural color representation.
+
+![Bar charts exploring trust and branding](images/Survey2.jpg)
+
+---
+
+## 📁 Files Included
+
+- `survey_analysis.py` — Main script: loads, cleans, and visualizes survey data
+- `SurveyResponses.csv` (not included in repo) — Raw data source
+- `images/Survey.jpg`, `images/Survey2.jpg` — Visual assets generated from analysis
+- `README.md` — This documentation
+
+---
+
+## ⚙️ How to Run
+
+1. **Clone this repository**  
+```bash
+git clone https://github.com/your-username/rdn-survey-analysis.git
+cd rdn-survey-analysis
